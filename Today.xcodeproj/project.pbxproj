@@ -17,6 +17,7 @@
 		8B7F5CFB27B7434100059926 /* TodayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F5CFA27B7434100059926 /* TodayUITests.swift */; };
 		8B7F5CFD27B7434100059926 /* TodayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F5CFC27B7434100059926 /* TodayUITestsLaunchTests.swift */; };
 		8B7F5D0A27B74B8800059926 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F5D0927B74B8800059926 /* Reminder.swift */; };
+		8B7F5D0C27B75D5100059926 /* ReminderListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F5D0B27B75D5100059926 /* ReminderListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8B7F5CFA27B7434100059926 /* TodayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayUITests.swift; sourceTree = "<group>"; };
 		8B7F5CFC27B7434100059926 /* TodayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8B7F5D0927B74B8800059926 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		8B7F5D0B27B75D5100059926 /* ReminderListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				8B7F5CE427B7434000059926 /* LaunchScreen.storyboard */,
 				8B7F5CE727B7434000059926 /* Info.plist */,
 				8B7F5D0927B74B8800059926 /* Reminder.swift */,
+				8B7F5D0B27B75D5100059926 /* ReminderListCell.swift */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B7F5CDE27B7433F00059926 /* ViewController.swift in Sources */,
+				8B7F5D0C27B75D5100059926 /* ReminderListCell.swift in Sources */,
 				8B7F5CDA27B7433F00059926 /* AppDelegate.swift in Sources */,
 				8B7F5CDC27B7433F00059926 /* SceneDelegate.swift in Sources */,
 				8B7F5D0A27B74B8800059926 /* Reminder.swift in Sources */,
