@@ -34,9 +34,8 @@
                                                 <backgroundConfiguration key="background" image="circle" catalog="system"/>
                                             </buttonConfiguration>
                                         </button>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRk-sS-1pf">
-                                            <rect key="frame" x="75" y="27" width="33" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRk-sS-1pf">
+                                            <rect key="frame" x="72" y="20" width="33" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -50,8 +49,11 @@
                                         </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="VRk-sS-1pf" firstAttribute="leading" secondItem="Uji-J6-LtU" secondAttribute="trailing" constant="8" symbolic="YES" id="9Em-lt-h9B"/>
                                         <constraint firstItem="Uji-J6-LtU" firstAttribute="leading" secondItem="AFX-nP-lwx" secondAttribute="leading" constant="20" symbolic="YES" id="Fn4-ek-zfn"/>
+                                        <constraint firstItem="VRk-sS-1pf" firstAttribute="top" secondItem="AFX-nP-lwx" secondAttribute="top" constant="20" symbolic="YES" id="Gys-dX-fpE"/>
                                         <constraint firstItem="Uji-J6-LtU" firstAttribute="centerY" secondItem="AFX-nP-lwx" secondAttribute="centerY" id="KyV-6m-Nfl"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="VRk-sS-1pf" secondAttribute="trailing" constant="20" symbolic="YES" id="zRS-rf-MYy"/>
                                     </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
