@@ -40,9 +40,8 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1JM-qu-gkL">
-                                            <rect key="frame" x="75" y="56" width="36" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1JM-qu-gkL">
+                                            <rect key="frame" x="72" y="49" width="36" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -50,9 +49,13 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="VRk-sS-1pf" firstAttribute="leading" secondItem="Uji-J6-LtU" secondAttribute="trailing" constant="8" symbolic="YES" id="9Em-lt-h9B"/>
+                                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="1JM-qu-gkL" secondAttribute="bottom" constant="20" symbolic="YES" id="BI1-aA-icP"/>
                                         <constraint firstItem="Uji-J6-LtU" firstAttribute="leading" secondItem="AFX-nP-lwx" secondAttribute="leading" constant="20" symbolic="YES" id="Fn4-ek-zfn"/>
                                         <constraint firstItem="VRk-sS-1pf" firstAttribute="top" secondItem="AFX-nP-lwx" secondAttribute="top" constant="20" symbolic="YES" id="Gys-dX-fpE"/>
                                         <constraint firstItem="Uji-J6-LtU" firstAttribute="centerY" secondItem="AFX-nP-lwx" secondAttribute="centerY" id="KyV-6m-Nfl"/>
+                                        <constraint firstItem="1JM-qu-gkL" firstAttribute="leading" secondItem="VRk-sS-1pf" secondAttribute="leading" id="L6X-xb-fxw"/>
+                                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1JM-qu-gkL" secondAttribute="trailing" constant="20" symbolic="YES" id="g1B-UV-Twh"/>
+                                        <constraint firstItem="1JM-qu-gkL" firstAttribute="top" secondItem="VRk-sS-1pf" secondAttribute="bottom" constant="8" symbolic="YES" id="kXH-th-k8E"/>
                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="VRk-sS-1pf" secondAttribute="trailing" constant="20" symbolic="YES" id="zRS-rf-MYy"/>
                                     </constraints>
                                 </tableViewCellContentView>
