@@ -25,7 +25,7 @@ extension ReminderListDataSource: UITableViewDataSource {
 		}
 		let reminder = Reminder.testData[indexPath.row]
 		let dateText = dateFormatter.localizedString(for: reminder.dueDate, relativeTo: Date())
-		let image = reminder.isComplete ? UIImage(systemName: "circle.fill") : UIImage(systemName: "circle")
+//		let image = reminder.isComplete ? UIImage(systemName: "circle.fill") : UIImage(systemName: "circle")
 //		cell.titleLabel.text = reminder.title
 //		cell.dateLabel.text = reminder.dueDate.description
 //		cell.doneButton.setBackgroundImage(image, for: .normal)
