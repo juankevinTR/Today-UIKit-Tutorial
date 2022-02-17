@@ -2,7 +2,7 @@
 //  ReminderDetailViewDataSource.swift
 //  Today
 //
-//  Created by Kevin Trujillo on 17/2/22.
+//  Created by Juan Kevin Trujillo on 17/2/22.
 //
 
 import Foundation
